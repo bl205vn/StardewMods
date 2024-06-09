@@ -1,0 +1,746 @@
+{
+    /*********
+    ** Generic translations
+    *********/
+    // date names
+    "generic.now": "bây giờ",
+    "generic.tomorrow": "ngày mai",
+    "generic.yesterday": "hôm qua",
+
+    // generic values
+    "generic.unknown": "không rõ",
+    "generic.list-separator": ", ", // text between listed values (like ", " in "A, B, C")
+
+    // generic field values
+    "generic.percent": "{{percent}}%",
+    "generic.percent-chance-of": "{{percent}}% tỷ lệ của {{label}}",
+    "generic.percent-ratio": "{{percent}}% ({{value}} của {{max}})",
+    "generic.ratio": "{{value}} trên {{max}}",
+    "generic.range": "{{min}} đến {{max}}",
+    "generic.yes": "có",
+    "generic.no": "không",
+    "generic.seconds": "{{count}} giây",
+    "generic.minutes": "{{count}} phút",
+    "generic.hours": "{{count}} tiếng",
+    "generic.days": "{{count}} ngày",
+    "generic.in-x-days": "trong {{count}} ngày",
+    "generic.x-days-ago": "{{count}} ngày trước",
+    "generic.price": "{{price}}g",
+    "generic.price-for-quality": "{{price}}g ({{quality}})",
+    "generic.price-for-stack": "{{price}}g cho {{count}} chồng",
+    "generic.show-x-results": "hiển thị {{count}} kết quả",
+
+    // types
+    "type.building": "Công trình",
+    "type.bush": "Bụi",
+    "type.fruit-tree": "Cây ăn quả",
+    "type.map-tile": "Ô bản đồ",
+    "type.monster": "Quái",
+    "type.player": "Người chơi",
+    "type.tree": "Cây",
+    "type.villager": "Dân làng",
+    "type.other": "Khác", // default type
+
+    // item qualities
+    "quality.normal": "thường",
+    "quality.silver": "bạc",
+    "quality.gold": "vàng",
+    "quality.iridium": "iridium",
+
+    // NPC friendship
+    "friendship-status.friendly": "Độ thân thiết",
+    "friendship-status.dating": "Đang hẹn hò",
+    "friendship-status.engaged": "Đã đính hôn",
+    "friendship-status.married": "Đã kết hôn",
+    "friendship-status.divorced": "Đã li hôn",
+    "friendship-status.kicked-out": "Bị đuổi",
+
+
+    /*********
+    ** Data translations
+    *********/
+    // Community Center bundle areas
+    "bundle-area.pantry": "Gói",
+    "bundle-area.crafts-room": "Phòng Thủ Công",
+    "bundle-area.fish-tank": "Bể Cá",
+    "bundle-area.boiler-room": "Phòng Lò Hơi",
+    "bundle-area.vault": "Két",
+    "bundle-area.bulletin-board": "Bản Tin",
+    "bundle-area.abandoned-joja-mart": "Joja Mart Bỏ Hoang",
+
+    // shop names
+    "shop.adventure-guild": "Hội Thám Hiểm",
+    "shop.clint": "Clint",
+    "shop.marnie": "Marnie",
+    "shop.pierre": "Pierre",
+    "shop.robin": "Robin",
+    "shop.volcano": "Cửa Hàng Núi Lửa",
+    "shop.willy": "Willy",
+
+    // recipe types
+    "recipe-type.cooking": "Nấu",
+    "recipe-type.crafting": "Chế tạo",
+    "recipe-type.tailoring": "May mặc",
+
+    // NPC descriptions
+    "data.npc.pet.description": "Thú cưng trung thành.",
+    "data.npc.horse.description": "Thú cưỡi trung thành.",
+    "data.npc.junimo.description": "Linh hồn rừng xanh từ thế giới linh hồn. Rất ít người biết rõ về chúng.",
+    "data.npc.trash-bear.description": "Linh hồn thân thiện giúp dọn dẹp rác.",
+
+    // item types
+    "data.type.container": "Thùng đựng hàng",
+
+    // override item text
+    "data.item.egg-incubator.description": "Máy ấp trứng thành gà/vịt con.",
+    "data.item.barrel.name": "Thùng",
+    "data.item.barrel.description": "Đập ra để lấy mấy đồ linh tinh.",
+    "data.item.box.name": "Hộp",
+    "data.item.box.description": "Đập ra để lấy mấy đồ linh tinh.",
+
+    // location names
+    "location.beach.east-pier": "{{locationName}} (bến tàu phía đông)",
+    "location.bugLand": "Hang Ổ Bọ Đột Biến",
+    "location.desert.topPond": "{{locationName}} (ao phía bắc)",
+    "location.farmCave": "Hang Nông Trại",
+    "location.farmHouse": "Nhà Nông Trại",
+    "location.forest.island-tip": "{{locationName}} (sông gần ngọn phía nam của đảo lớn)",
+    "location.forest.lake": "{{locationName}} (ao)",
+    "location.forest.river": "{{locationName}} (sông)",
+    "location.submarine": "Tàu Ngầm Chợ Đêm",
+    "location.town.northmost-bridge": "{{locationName}} (cây cầu phía bắc)",
+    "location.undergroundMine": "Mỏ",
+    "location.undergroundMine.level": "Mỏ tầng {{level}}",
+    "location.witchSwamp": "Đầm Lầy Phù Thủy",
+    
+    "location.caldera": "Núi Lửa Đảo Gừng",
+    "location.islandEast": "Đông Đảo Gừng",
+    "location.islandNorth": "Bắc Đảo Gừng",
+    "location.islandSouth": "Nam Đảo Gừng",
+    "location.islandSouthEast": "Đông Nam Đảo Gừng",
+    "location.islandSouthEastCave": "Hang Đông Nam Đảo Gừng",
+    "location.islandWest": "Tây Đảo Gừng",
+    "location.islandWest.freshwater": "Tây Đảo Gừng (ao)",
+    "location.islandWest.ocean": "Tây Đảo Gừng (biển)",
+
+    "location.fish-area": "{{locationName}} ({{areaName}})",
+    "location.unknown-fish-area": "{{locationName}} (khu vực câu cá {{id}})",
+    
+    
+
+    /*********
+    ** Conditions & context tags
+    *********/
+    // TODO
+    "condition-or-context-tag.negate": "không phải {{value}}",
+
+    "condition.item-type.input": "vật phẩm đầu vào",
+    "condition.item-type.target": "vật phẩm mục tiêu",
+
+    "condition.raw-context-tag": "thẻ ngữ cảnh \"{{tag}}\"",
+    "condition.raw-condition": "truy vấn \"{{tag}}\"",
+
+    "condition.item-context-tag": "{{item}} có thẻ ngữ cảnh {{tags}}",
+    "condition.item-context-tags": "{{item}} có các thẻ ngữ cảnh {{tags}}",
+    "condition.item-context-tag.value": "'{{tag}}'", // the format of each context tag in the list (each context tag isn't translated)
+
+    "condition.item-edibility.edible": "{{item}} có thể ăn được",
+    "condition.item-edibility.min": "{{item}} có độ ăn được là {{min}} hoặc cao hơn",
+    "condition.item-edibility.range": "{{item}} có độ ăn được là {{min}} đến {{max}}",
+    "context-tag.bone": "bất kỳ xương nào",
+    "context-tag.egg": "bất kỳ quả trứng nào",
+    "context-tag.large-egg": "bất kỳ quả trứng lớn nào",
+    "context-tag.preserved-item": "{{name}} được bảo quản",       
+
+
+
+    /*********
+    ** Animal lookups
+    *********/
+    // labels
+    "animal.love": "Yêu",
+    "animal.happiness": "Hạnh Phúc",
+    "animal.mood": "Tâm Trạng Hôm Nay",
+    "animal.complaints": "Phàn Nàn",
+    "animal.produce-ready": "Sẵn sàng Sản Xuất",
+    "animal.growth": "Phát Triển",
+    "animal.sells-for": "Bán Được Với Giá",
+
+    // values
+    "animal.complaints.hungry": "không được cho ăn hôm qua",
+    "animal.complaints.left-out": "bị bỏ ngoài qua đêm",
+    "animal.complaints.new-home": "đã được chuyển vào chuồng mới",
+    "animal.complaints.no-heater": "không được sưởi ấm vào mùa đông",
+    "animal.complaints.not-petted": "chưa được vuốt ve hôm nay",
+    "animal.complaints.wild-animal-attack": "bị tấn công bởi động vật hoang dã vào ban đêm",
+
+    /*********
+    ** Building > generic lookups
+    *********/
+    // labels
+    "building.animals": "Động Vật",
+    "building.construction": "Xây Dựng",
+    "building.feed-trough": "Máng Thức Ăn",
+    "building.horse": "Ngựa",
+    "building.horse-location": "Vị trí ngựa",
+    "building.owner": "Chủ",
+    "building.slimes": "Slime",
+    "building.stored-hay": "Kho Chứa Cỏ",
+    "building.upgrades": "Nâng Cấp",
+    "building.water-trough": "Máng Nước",
+
+    // values
+    "building.animals.summary": "{{count}} trên {{max}} con",
+    "building.construction.summary": "sẵn sàng vào {{date}}",
+    "building.feed-trough.automated": "tự động",
+    "building.feed-trough.summary": "{{filled}} trên {{max}} khay thức ăn được làm đầy",
+    "building.horse-location.summary": "{{location}} ({{x}}, {{y}})",
+    "building.junimo-harvesting-enabled": "Cho phép thu hoạch",
+    "building.owner.none": "Không có chủ sở hữu",
+    "building.output-processing": "Xử Lí Đầu Ra",
+    "building.output-ready": "Đầu Ra Sẵn Sàng",
+    "building.slimes.summary": "{{count}} trong tổng số {{max}} con slime",
+    "building.stored-hay.summary": "{{hayCount}} trong tổng số {{maxHayInLocation}} rơm ở vị trí này (sức chứa tối đa của công trình: {{maxHayInBuilding}})",
+    "building.upgrades.barn.0": "tối đa 4 con vật, thêm bò",
+    "building.upgrades.barn.1": "tối đa 8 con vật, vật nuôi có khả năng sinh sản và thêm dê",
+    "building.upgrades.barn.2": "tối đa 12 con vật, thêm hệ thống cho ăn tự động, heo, và cừu",
+    "building.upgrades.cabin.0": "Cabin ban đầu",
+    "building.upgrades.cabin.1": "thêm nhà bếp, có thể đính hôn",
+    "building.upgrades.cabin.2": "cho phép có trẻ nhỏ",
+    "building.upgrades.coop.0": "tối đa 4 con vật; thêm gà",
+    "building.upgrades.coop.1": "tối đa 8 con vật; thêm máy ấp trứng, khủng long và vịt",
+    "building.upgrades.coop.2": "tối đa 12 con vật; thêm hệ thống cho ăn tự động và thỏ",
+    "building.water-trough.summary": "{{filled}} trên {{max}} khay nước được đổ đầy",
+
+
+    /*********
+    ** Building > fish pond lookups
+    *********/
+    // labels
+    "building.fish-pond.population": "Số lượng",
+    "building.fish-pond.drops": "Thả",
+    "building.fish-pond.quests": "Nhiệm vụ",
+
+    // values
+    "building.fish-pond.population.empty": "thêm cá để bắt đầu sản xuất",
+    "building.fish-pond.population.next-spawn": "Sinh ra cá mới {{relativeDate}}",
+    "building.fish-pond.drops.preface": "{{chance}}% tỷ lệ mỗi ngày cung cấp vật phẩm tương ứng:",
+    "building.fish-pond.drops.min-fish": "Với {{count}} cá:",
+    "building.fish-pond.quests.done": "{{count}} cá",
+    "building.fish-pond.quests.incomplete-one": "{{count}} cá: cần {{itemName}}",
+    "building.fish-pond.quests.incomplete-random": "{{count}} cá: cần 1 trong {{itemList}}",
+    "building.fish-pond.quests.available": "có sẵn {{relativeDate}}",
+
+
+    /*********
+    ** Bush lookups
+    *********/
+    // labels
+    "bush.name.berry": "Bụi Dâu Mọng",
+    "bush.name.plain": "Bụi Cây",
+    "bush.name.tea": "Bụi Trà",
+    "bush.description.berry": "Bụi cây có mâm xôi cá hồi và đen.",
+    "bush.description.plain": "Bụi cây không có gì.",
+    "bush.description.Tea": "Bụi có lá trà.",
+    "bush.date-planted": "Ngày trồng",
+    "bush.growth": "Sinh trưởng",
+    "bush.next-harvest": "Vụ mùa kế tiếp",
+
+    // values
+    "bush.growth.summary": "trưởng thành vào {{date}}",
+    "bush.schedule.berry": "20% tỷ lệ có mâm xôi cá hồi vào mùa xuân 15-18 và mâm xôi đen vào mùa thu 8-11.",
+    "bush.schedule.tea": "Có lá trà vào ngày 22 mỗi mùa(ngoại trừ mùa đông nếu không ở trong nhà kính).",
+
+
+    /*********
+    ** Fruit tree lookups
+    *********/
+    // labels
+    "fruit-tree.complaints": "Than Phiền",
+    "fruit-tree.name": "{{fruitName}} Cây",
+    "fruit-tree.growth": "Sinh Trưởng",
+    "fruit-tree.next-fruit": "Trái Kế Tiếp",
+    "fruit-tree.season": "Mùa",
+    "fruit-tree.quality": "Chất Lượng",
+
+    // values
+    "fruit-tree.complaints.adjacent-objects": "không thể phát triển vì có vật cản",
+    "fruit-tree.growth.summary": "trưởng thành vào {{date}}",
+    "fruit-tree.next-fruit.max-fruit": "không thể cho thêm trái cho đến khi bạn thu hoạch",
+    "fruit-tree.next-fruit.out-of-season": "hết mùa",
+    "fruit-tree.next-fruit.struck-by-lightning": "bị sét đánh! hồi phục trong {{count}} ngày.",
+    "fruit-tree.next-fruit.too-young": "quá non để hái",
+    "fruit-tree.quality.now": "{{quality}} bây giờ",
+    "fruit-tree.quality.on-date": "{{quality}} vào {{date}}",
+    "fruit-tree.quality.on-date-next-year": "{{quality}} vào {{date}} năm sau",
+    "fruit-tree.season.summary": "{{season}} (hoặc bất kỳ lúc nào trong nhà kính)",
+
+
+    /*********
+    ** Crop lookups
+    *********/
+    // labels
+    "crop.summary": "Cây trồng",
+    "crop.harvest": "Thu hoạch",
+    "crop.fertilized": "Phân bón",
+    "crop.watered": "Nước",
+
+    // values
+    "crop.summary.dead": "Cây này đã chết.",
+    "crop.summary.drops-X": "bỏ {{count}}",
+    "crop.summary.drops-X-to-Y": "bỏ {{min}} cho đến {{max}} ({{percent}}% tỷ lệ thêm cây)",
+    "crop.summary.harvest-once": "thu hoạch sau {{daysToFirstHarvest}} ngày",
+    "crop.summary.harvest-multi": "thu hoạch sau {{daysToFirstHarvest}} ngày, và mỗi {{daysToNextHarvests}} ngày",
+    "crop.summary.seasons": "phát triển trong {{seasons}}",
+    "crop.summary.sells-for": "bán với {{price}}",
+    "crop.harvest.too-late": "quá trễ để thu hoạch trong mùa này (thu hoạch vào {{date}})",
+
+
+    /*********
+    ** Item > generic lookups
+    *********/
+    // labels
+    "item.custom-item": "Mục tùy chỉnh",
+    "item.contents": "Nội Dung",
+    "item.loves-this": "Yêu thứ này",
+    "item.likes-this": "Thích thứ này",
+    "item.neutral-about-this": "Trung lập",
+    "item.dislikes-this": "Không thích thứ này",
+    "item.hates-this": "Ghét thứ này",
+    "item.needed-for": "Cần cho",
+    "item.number-owned": "Sở Hữu",
+    "item.number-cooked": "Nấu",
+    "item.number-crafted": "Chế tạo",
+    "item.recipes": "Công thức",
+    "item.see-also": "Xem thêm",
+    "item.sells-for": "Bán được",
+    "item.sells-to": "Bán cho",
+    "item.can-be-dyed": "Có thể nhuộm",
+    "item.produces-dye": "Cho màu nhuộm",
+
+    // values
+    "item.custom-item.summary": "được thêm bởi {{modName}}",
+    "item.contents.placed": "{{name}} địa điểm",
+    "item.contents.ready": "{{name}} sẵn sàng",
+    "item.contents.partial": "{{name}} vào {{time}}",
+    "item.undiscovered-gift-taste": "{{count}} dân làng chưa biết",
+    "item.undiscovered-gift-taste-appended": ", và {{count}} dân làng chưa biết",
+    "item.needed-for.community-center": "Nhà văn hóa ({{bundles}})",
+    "item.needed-for.full-shipment": "Thành tựu vận chuyển trọn bộ (Bán một cái)",
+    "item.needed-for.polyculture": "Thành tựu đa canh (giao {{count}} lần)",
+    "item.needed-for.full-collection": "Thành tựu bộ sưu tập hoàn chỉnh (cống hiến một cái cho viện bảo tàng)",
+    "item.needed-for.gourmet-chef": "Thành tựu Đầu Bếp Sành Ăn (nấu {{recipes}})",
+    "item.needed-for.craft-master": "Thành tựu Bậc Thầy Chế Tác (làm {{recipes}})",
+    "item.needed-for.quests": "Nhiệm vụ hiện tại ({{quests}}))",
+    "item.unknown-recipes": "{{count}} công thức chưa biết", // TODO
+    "item.sells-to.shipping-box": "Thùng bán hàng",
+    "item.recipes-for-ingredient.entry": "{{name}} (cần {{count}})",
+    "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
+    "item.recipes-for-machine.same-as-input": "[giống như đầu vào]", // e.g. crystalarium produces same item that was put in // TODO
+    "item.recipes-for-machine.conditions": "[điều kiện: {{conditions}}]", // TODO
+    "item.recipes-for-machine.too-complex": "Một số quy tắc của máy quá phức tạp để hiển thị.", // TODO
+    "item.number-owned.summary": "Bạn sở hữu {{count}} cái",
+    "item.number-crafted.summary": "Bạn đã chế tạo {{count}} cái",
+
+
+    /*********
+    ** Item > cask lookups
+    *********/
+    // labels
+    "item.cask-contents": "Nội Dung",
+    "item.cask-schedule": "Lên men",
+
+    // values
+    "item.cask-schedule.now": "{{quality}} đã sắn sàng",
+    "item.cask-schedule.now-partial": "{{quality}} ngay lúc này (dùng cuốc chim để dừng lên men)",
+    "item.cask-schedule.tomorrow": "{{quality}} ngày mai",
+    "item.cask-schedule.in-x-days": "{{quality}} trong {{count}} ngày ({{date}})",
+
+
+    /*********
+    ** Item > crab pot lookups
+    *********/
+    // labels
+    "item.crabpot-bait": "Mồi",
+    "item.crabpot-bait-needed": "Cần mồi!",
+    "item.crabpot-bait-not-needed": "không cần vì đã có Bậc thầy mồi chài.",
+
+
+    /*********
+    ** Item > fence lookups
+    *********/
+    // labels
+    "item.fence-health": "HP",
+
+    // values
+    "item.fence-health.gold-clock": "Đồng hồ vàng không bị hư",
+    "item.fence-health.summary": "{{percent}}% (Trụ được {{count}} ngày)",
+
+
+    /*********
+    ** Item > fish lookups
+    *********/
+    // labels
+    "item.fish-pond-drops": "Thu hoạch ao cá",
+    "item.fish-spawn-rules": "Quy luật sinh sản",
+
+    // values
+    "item.fish-spawn-rules.min-fishing-level": "Cấp câu cá thấp nhất: {{level}}",
+    "item.fish-spawn-rules.not-caught-yet": "Chưa bắt được(Chỉ bắt được 1 lần)",
+    "item.fish-spawn-rules.locations": "Vị trí: {{locations}}",
+    "item.fish-spawn-rules.locations-by-season.label": "Vị trí:",
+    "item.fish-spawn-rules.locations-by-season.season-locations": "{{season}}: {{locations}}",
+    "item.fish-spawn-rules.season-any": "Bốn mùa",
+    "item.fish-spawn-rules.season-list": "Mùa: {{seasons}}",
+    "item.fish-spawn-rules.time": "thời gian trong ngày: {{times}}",
+    "item.fish-spawn-rules.weather-sunny": "thời tiết: nắng",
+    "item.fish-spawn-rules.weather-rainy": "thời tiết: mưa",
+
+
+    /*********
+    ** Item > melee weapon lookups
+    *********/
+    // labels
+    "item.melee-weapon.accuracy": "Độ chính xác",
+    "item.melee-weapon.critical-chance": "Tỷ lệ Chí mạng",
+    "item.melee-weapon.critical-damage": "Sát thương Chí mạng",
+    "item.melee-weapon.damage": "Sát thương",
+    "item.melee-weapon.defense": "Phòng thủ",
+    "item.melee-weapon.knockback": "Đẩy lùi",
+    "item.melee-weapon.reach": "Tầm",
+    "item.melee-weapon.speed": "Tốc đánh",
+
+    // values
+    // TODO
+    "item.melee-weapon.critical-damage.label": "tăng {{multiplier}} sát thương cơ bản (trước khi được cộng thêm)",
+    "item.melee-weapon.defense.label": "{{amount}} khi trang bị",
+    "item.melee-weapon.knockback.label": "{{amount}} ({{multiplier}} lần tầm cơ bản)",
+    "item.melee-weapon.reach.label": "{{amount}} pixel",
+    "item.melee-weapon.speed.shown-vs-actual": "hiện tại: {{shownSpeed}}{{lineBreak}}thực tế: {{actualSpeed}}",
+    "item.melee-weapon.speed.summary": "{{speed}} ({{milliseconds}} mili giây mỗi lần vung, trước khi cộng thêm tốc độ)",
+
+
+    /*********
+    ** Item > movie lookups
+    *********/
+    // labels
+    "item.movie-snack-preference": "Độ ưu tiên",
+    "item.movie-ticket.movie-this-week": "Phim của tuần này",
+    "item.movie-ticket.loves-movie": "Phim yêu thích",
+    "item.movie-ticket.likes-movie": "Phim được thích",
+    "item.movie-ticket.dislikes-movie": "Phim không thích",
+    "item.movie-ticket.rejects-movie": "Phim không muốn xem", // TODO
+
+    // values
+    "item.movie-snack-preference.love": "{{name}} yêu nó",
+    "item.movie-snack-preference.like": "{{name}} thích nó",
+    "item.movie-snack-preference.dislike": "{{name}} không thích nó",
+    "item.movie-ticket.movie-this-week.none": "không có phim mới trong tuần này",
+
+
+    /*********
+    ** Item > music block lookups
+    *********/
+    // labels
+    "item.music-block.pitch": "Âm cao",
+    "item.music-block.drum-type": "Loại trống",
+
+
+    /*********
+    ** Monster lookups
+    *********/
+    // labels
+    "monster.invincible": "Bất hoại",
+    "monster.health": "HP",
+    "monster.drops": "Rớt",
+    "monster.experience": "XP",
+    "monster.defense": "Phòng thủ",
+    "monster.attack": "Tấn công",
+    "monster.adventure-guild": "Hội Thám Hiểm",
+
+    // values
+    "monster.drops.nothing": "Không có",
+    "monster.adventure-guild.eradication-goal": "Diệt trừ quái vật: {{name}} (diệt {{count}} trên {{requiredCount}})",
+
+
+    /*********
+    ** NPC > generic lookups
+    *********/
+    // labels
+    "npc.birthday": "Sinh nhật",
+    "npc.can-romance": "Có thể kết hôn",
+    "npc.friendship": "Thiện cảm",
+    "npc.talked-today": "Đã trò chuyện hôm nay",
+    "npc.gifted-today": "Đã tặng quà hôm nay",
+    "npc.gifted-this-week": "Đã tặng quà tuần này",
+    "npc.kissed-today": "Đã hôn hôm nay",
+    "npc.hugged-today": "Đã ôm hôm nay",
+    "npc.loves-gifts": "Quà thích nhất",
+    "npc.likes-gifts": "Quà yêu thích",
+    "npc.neutral-gifts": "Quà bình thường",
+    "npc.dislikes-gifts": "Không thích khi bạn tặng",
+    "npc.hates-gifts": "ghét khi bạn tặng",
+
+    // values
+    "npc.can-romance.married": "Hai người đã kết hôn! <", // < turns into a heart
+    "npc.can-romance.housemate": "Hai người đang ở chung nhà!",
+    "npc.friendship.not-met": "Bạn chưa gặp họ bao giờ.",
+    "npc.friendship.need-bouquet": "Cần bó hoa",
+    "npc.friendship.need-points": "tim tiếp theo cần {{count}} điểm",
+    "npc.undiscovered-gift-taste": "{{count}} vật phẩm chưa khám phá",
+    "npc.unowned-gift-taste": "{{count}} vật phẩm chưa biết", // TODO
+
+
+    /*********
+    ** NPC > child lookups
+    *********/
+    // labels
+    "npc.child.age": "Tuổi",
+
+    // values
+    "npc.child.age.description-partial": "{{label}} ({{count}} ngày đến {{nextLabel}})",
+    "npc.child.age.description-grown": "{{label}}",
+    "npc.child.age.newborn": "Mới sinh",
+    "npc.child.age.baby": "em bé",
+    "npc.child.age.crawler": "Biết bò",
+    "npc.child.age.toddler": "Biết đi",
+
+
+    /*********
+    ** Pet lookups
+    *********/
+    // labels
+    "pet.love": "Tình cảm",
+    "pet.petted-today": "Đã vuốt ve",
+    "pet.last-petted": "Vuốt ve lần cuối",
+    "pet.water-bowl": "Bát nước",
+
+    // values
+    "pet.last-petted.yes": "có (+12 Tình cảm)",
+    "pet.last-petted.days-ago": "{{days}} ngày trước",
+    "pet.last-petted.never": "không bao giờ",
+    "pet.water-bowl.empty": "trống",
+    "pet.water-bowl.filled": "có (+6 Tình cảm)",
+
+
+    /*********
+    ** Player lookups
+    *********/
+    // labels
+    "player.farm-name": "Tên nông trại",
+    "player.farm-map": "Loại map",
+    "player.favorite-thing": "Vật yêu thích",
+    "player.gender": "Giới tính",
+    "player.housemate": "Chung nhà",
+    "player.spouse": "Vợ chồng",
+    "player.watched-movie-this-week": "Phim đã xem tuần này",
+    "player.combat-skill": "Chiến đấu",
+    "player.farming-skill": "Trồng trọt",
+    "player.fishing-skill": "Câu cá",
+    "player.foraging-skill": "Hái lượm",
+    "player.mining-skill": "Khai khoáng",
+    "player.luck": "may mắn",
+    "player.save-format": "Định dạng lưu",
+
+    // values
+    "player.farm-map.custom": "Tùy chỉnh",
+    "player.gender.male": "nam",
+    "player.gender.female": "nữ",
+    "player.luck.summary": "{{percent}}% tỷ lệ may mắn",
+    "player.skill.progress": "đang ở cấp {{level}} cần ({{expNeeded}} XP để lên cấp)",
+    "player.skill.progress-last": "cấp {{level}}",
+
+    /*********
+    ** Puzzles
+    *********/
+    // labels
+    "puzzle.solution": "Gợi ý",
+
+    // values
+    "puzzle.solution.solved": "Giải được câu đố!",
+    "puzzle.solution.hidden": "Gợi ý được ẩn theo cài đặt của bạn.",
+
+
+    /*********
+    ** Puzzles > Fern Islands crystal cave
+    *********/
+    // labels
+    "puzzle.island-crystal-cave.title": "Câu đố Hang Pha Lê",
+    "puzzle.island-crystal-cave.crystal-id": "Pha lê ID",
+
+    // values
+    "puzzle.island-crystal-cave.solution.not-activated": "Kích hoạt tượng đá để bắt đầu giải đố.",
+    "puzzle.island-crystal-cave.solution.waiting": "Đang chờ trò chơi tạo ra chuỗi...",
+    "puzzle.island-crystal-cave.solution.activated": "Lặp lại trình tự kích hoạt pha lê:",
+
+
+    /*********
+    ** Puzzles > Fern Islands mermaid puzzle
+    *********/
+    // labels
+    "puzzle.island-mermaid.title": "Câu đố đảo tiên cá",
+    "puzzle.island-mermaid.solution.intro": "Dùng khối nhạc để chơi bài hát của tiên cá trong chợ đêm. Cao độ (bạn có thể kiểm tra khối nhạc để xem):",
+
+
+    /*********
+    ** Puzzles > Fern Islands shrine puzzle
+    *********/
+    // labels
+    "puzzle.island-shrine.title": "Câu đố ở đền thờ trên đảo",
+
+    // values
+    "puzzle.island-shrine.solution": "Với mỗi bệ, đặt vật phẩm rớt bởi chim ngọc tại vị trí tương ứng trên đảo khi trời mưa. vật phẩm có vị trí ngẫu nhiên cho mỗi save.",
+    "puzzle.island-shrine.solution.east": "Đông: {{item}}",
+    "puzzle.island-shrine.solution.north": "Bắc: {{item}}",
+    "puzzle.island-shrine.solution.south": "Nam: {{item}}",
+    "puzzle.island-shrine.solution.west": "Tây: {{item}}",
+
+
+    /*********
+    ** Tile lookups
+    *********/
+    // labels
+    "tile.description": "Một ô trên map. Hiển thị khi bật xem ô trong cấu hình mod.",
+    "tile.game-location": "Vị trí",
+    "tile.map-name": "Tên map",
+    "tile.tile": "Ô",
+    "tile.tile-index": "{{layerName}}: chỉ mục ô",
+    "tile.tilesheet": "{{layerName}}: bảng xếp ô",
+    "tile.blend-mode": "{{layerName}}: chế độ hòa trộn",
+    "tile.index-property": "{{layerName}}: thuộc tính ix: {{propertyName}}",
+    "tile.tile-property": "{{layerName}}: thuộc tính: {{propertyName}}",
+
+    // values
+    "tile.tile.none-here": "không có ô ở đây",
+
+
+    /*********
+    ** Trash Bear or Gourmand lookups
+    *********/
+    // labels
+    "trash-bear-or-gourmand.item-wanted": "Vật phẩm mong muốn",
+    "trash-bear-or-gourmand.quest-progress": "TIến trình nhiệm vụ",
+
+
+    /*********
+    ** Wild tree lookups
+    *********/
+    // labels
+    "tree.stage": "Quá trình sinh trưởng",
+    "tree.next-growth": "Lần sinh trưởng tiếp theo",
+    "tree.seed": "Có hạt giống",
+    "tree.is-fertilized": "Được bón phân",
+
+    // values
+    "tree.name.big-mushroom": "Nấm khổng lồ",
+    "tree.name.mahogany": "Cây Gỗ Gụ",
+    "tree.name.maple": "Cây Phong",
+    "tree.name.oak": "Cây Sồi",
+    "tree.name.palm": "Cây Cọ",
+    "tree.name.pine": "Cây Thông",
+    "tree.name.mossy": "Cây rêu",
+    "tree.name.mystic": "Cây huyền bí",
+    "tree.name.unknown": "Cây Không Rõ",
+    "tree.stage.done": "Phát triển hoàn toàn",
+    "tree.stage.partial": "{{stageName}} ({{step}} trên {{max}})",
+    "tree.next-growth.winter": "không thể trồng vào mùa đông ở ngoài nhà kính trừ khi có phân bón",
+    "tree.next-growth.adjacent-trees": "không thể trồng vì có cây ở gần",
+    "tree.next-growth.chance": "có {{chance}}% thành {{stage}} vào ngày mai",
+    "tree.seed.not-ready": "Chưa sẵn sàng",
+    "tree.seed.probability-daily": "{{chance}}% cơ hội nhận được {{itemName}} mỗi ngày.",
+    "tree.seed.probability-on-chop": "{{chance}}% cơ hội rơi {{itemName}} khi chặt cây.",
+
+    // growth stages
+    "tree.stages.seed": "hạt giống",
+    "tree.stages.sprout": "mầm cây",
+    "tree.stages.sapling": "cây non",
+    "tree.stages.bush": "cây con",
+    "tree.stages.smallTree": "cây vừa",
+    "tree.stages.tree": "cây lớn",
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    "config.title.main-options": "Tùy chọn chính",
+    "config.force-full-screen.name": "Toàn màn hình",
+    "config.force-full-screen.desc": "Menu có luôn luôn ở chế độ toàn màn hình hay không, thay vì hiển thị ở giữa cửa sổ. Điều này chủ yếu hữu ích khi xem các trường dữ liệu khai thác.",
+    
+    // progression mode
+    // TODO
+    "config.title.progression": "Chế độ phát triển",
+
+    "config.progression.show-unknown-gift-tastes.name": "Hiển thị sở thích quà tặng chưa biết",
+    "config.progression.show-unknown-gift-tastes.desc": "Có hiển thị các sở thích quà tặng mà bạn chưa biết trong trò chơi hay không (ví dụ: từ văn bản hội thoại hoặc thử nghiệm).",
+
+    "config.progression.show-unknown-recipes.name": "Hiển thị công thức chưa biết",
+    "config.progression.show-unknown-recipes.desc": "Có hiển thị các công thức mà bạn chưa học trong trò chơi hay không.",
+
+    "config.progression.show-puzzle-solutions.name": "Hiển thị gợi ý",
+    "config.progression.show-puzzle-solutions.desc": "Có hiển thị gợi ý hay không.",
+
+    // gift tastes
+    "config.title.gift-tastes": "Loại quà tặng",
+    "config.show-gift-tastes.loved.name": "Hiển thị quà tặng được yêu thích",
+    "config.show-gift-tastes.loved.desc": "Cho biết liệu có nên hiển thị quà tặng được yêu thích trong tìm kiếm NPC và mục.",
+    "config.show-gift-tastes.liked.name": "Hiển thị quà tặng được ưa thích",
+    "config.show-gift-tastes.liked.desc": "Cho biết liệu có nên hiển thị quà tặng được ưa thích trong tìm kiếm NPC và mục.",
+    "config.show-gift-tastes.neutral.name": "Hiển thị quà tặng trung lập",
+    "config.show-gift-tastes.neutral.desc": "Cho biết liệu có nên hiển thị quà tặng trung lập trong tìm kiếm NPC và mục.",
+    "config.show-gift-tastes.disliked.name": "Hiển thị quà tặng không ưa thích",
+    "config.show-gift-tastes.disliked.desc": "Cho biết liệu có nên hiển thị quà tặng không ưa thích trong tìm kiếm NPC và mục.",
+    "config.show-gift-tastes.hated.name": "Hiển thị quà tặng ghét",
+    "config.show-gift-tastes.hated.desc": "Cho biết liệu có nên hiển thị quà tặng ghét trong tìm kiếm NPC và mục.",
+
+    "config.show-unowned-gifts.name": "Hiển thị quà tặng chưa sở hữu",
+    "config.show-unowned-gifts.desc": "Cho biết liệu có nên hiển thị loại quà tặng cho các mục mà người chơi chưa sở hữu ở một nơi nào đó trong thế giới.",
+
+    "config.highlight-unrevealed-gift-tastes.name": "Đánh dấu nổi bật chưa tiết lộ",
+    "config.highlight-unrevealed-gift-tastes.desc": "Cho biết liệu có nên làm nổi bật loại quà tặng chưa được tiết lộ trong hồ sơ NPC. Khi được kích hoạt, loại quà tặng chưa được tiết lộ sẽ được làm đậm.",
+
+    // collapse fields
+    // TODO
+    "config.title.collapse-fields": "Thu gọn các trường lớn",
+
+    "config.collapse-fields.enabled.name": "Đã bật",
+    "config.collapse-fields.enabled.desc": "Có thu gọn các trường lớn hay không, để menu tra cứu sẽ thay thế danh sách bằng liên kết 'hiển thị X giá trị' có thể nhấp để mở rộng.",
+    
+    "config.collapse-fields.building-recipes.name": "Tra cứu tòa nhà: công thức", // TODO
+    "config.collapse-fields.item-recipes.name": "Tra cứu mục: công thức",
+    "config.collapse-fields.npc-gift-tastes.name": "Tra cứu NPC: sở thích quà tặng",
+    "config.collapse-fields.any.desc": "Nếu trường chứa nhiều giá trị này, menu tra cứu sẽ thay thế danh sách bằng liên kết 'hiển thị X giá trị' có thể nhấp để mở rộng.",
+
+    // advanced options
+    // TODO
+    "config.title.advanced-options": "Tùy chọn nâng cao",
+    "config.tile-lookups.name": "Tra cứu ô",
+    "config.tile-lookups.desc": "Cho phép bao gồm các ô bản đồ như mục tiêu tra cứu.",
+    "config.data-mining-fields.name": "Hiển thị các trường khai thác dữ liệu",
+    "config.data-mining-fields.desc": "Cho phép hiển thị dữ liệu hữu ích cho người khai thác dữ liệu (dưới dạng các trường riêng biệt ở cuối kết quả tra cứu). Đây là một tính năng nâng cao không dành cho phần lớn người chơi.",
+    "config.target-redirection.name": "Điều hướng mục tiêu",
+    "config.target-redirection.desc": "Trong một số trường hợp, trò chơi tạo ra một thực thể tạm thời để đại diện cho một thực thể khác. Ví dụ, Abigail trong mỏ thực tế là một NPC tạm thời với tên 'AbigailMine', vì vậy khi tra cứu cô ấy ở đó sẽ không hiển thị thông tin thật sự về Abigail. Với tùy chọn này được kích hoạt, Lookup Anything sẽ tra cứu Abigail gốc thay vì thực thể tạm thời.",
+    "config.scroll-amount.name": "Số lượng cuộn",
+    "config.scroll-amount.desc": "Số lượng pixel dịch chuyển nội dung trên mỗi cuộn lên/xuống.",
+
+    // controls section
+    // TODO
+    "config.title.controls": "Điều khiển",
+    "config.hide-on-key-up.name": "Ẩn khi phím nhả ra",
+    "config.hide-on-key-up.desc": "Cho phép ẩn giao diện tra cứu khi bạn nhả phím tra cứu.",
+    "config.toggle-lookup.name": "Chuyển đổi tra cứu",
+    "config.toggle-lookup.desc": "Các phím để chuyển đổi giao diện tra cứu cho mục gì đó dưới con trỏ.",
+    "config.toggle-search.name": "Chuyển đổi tìm kiếm",
+    "config.toggle-search.desc": "Các phím để chuyển đổi giao diện tìm kiếm.",
+    "config.scroll-up.name": "Cuộn lên",
+    "config.scroll-up.desc": "Các phím để cuộn lên nội dung dài một vài dòng.",
+    "config.scroll-down.name": "Cuộn xuống",
+    "config.scroll-down.desc": "Các phím để cuộn xuống nội dung dài một vài dòng.",
+    "config.page-up.name": "Trang lên",
+    "config.page-up.desc": "Các phím để cuộn lên nội dung dài một trang đầy đủ.",
+    "config.page-down.name": "Trang xuống",
+    "config.page-down.desc": "Các phím để cuộn xuống nội dung dài một trang đầy đủ.",
+    "config.toggle-debug.name": "Chuyển đổi gỡ lỗi",
+    "config.toggle-debug.desc": "Các phím để chuyển đổi hiển thị thông tin gỡ lỗi."
+}
+//trans by dragonly and CuongNguyen
